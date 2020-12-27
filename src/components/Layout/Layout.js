@@ -1,4 +1,4 @@
-import Aux from '../../hoc/Auxilliary';
+import Aux from '../../hoc/Auxiliary';
 import classes from './layout.module.css';
 
 const layout = (props) => {
