@@ -1,5 +1,6 @@
 import classes from './Toolbar.module.css';
 import Logo from '../../UI/Logo/Logo';
+import NavigationItems from '../NavigationItems/NavigationItems';
 
 const toolbar = (props) => {
 
@@ -8,8 +9,8 @@ const toolbar = (props) => {
             <div>MENU</div>
             <Logo></Logo>
             <nav>
-                ...
-        </nav>
+                <NavigationItems></NavigationItems>
+            </nav>
         </header>
     )
 }
